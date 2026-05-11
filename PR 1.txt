@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<title> OJT </title>
+</head>
+
+<body>
+<h1>SOU</h1>
+<h2>SOCET </h2>
+<h3>CSE <h3>
+<h4>OJT </h4>
+<h5>HELLO </h5>
+<h6>GOOD MORNING </h6>
+
+<ol><h3> 1.SOCET </h3>
+<ul><b> DEGREE </b></ul>
+	<li> CE</li>
+	<li> CSE </li>
+<ul>DIPLOMA</ul>
+	<li>CE</LI>
+	<li>CSE</li>
+<ul>MASTER</ul>
+	<li>CE</li>
+	<li>it</li>
+</ol>
+<ol><h3> 2.ASOIT </h3>
+<ul><b> DEGREE </b></ul>
+	<li> CE</li>
+	<li> CSE </li>
+<ul>DIPLOMA</ul>
+	<li>CE</LI>
+	<li>CSE</li>
+<ul>MASTER</ul>
+	<li>CE</li>
+	<li>it</li>
+</ol>
+</body>
+</html>

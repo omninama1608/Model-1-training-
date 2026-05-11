@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<h3><b> Student Registration Form </b> </h3>
+<form>
+<label> Name </label>
+<input type="text" name="Full Name" placeholder="Enter your name"><br><br>
+<label> Enrollment No: </label>
+<input type="text" name="Enrollment" pattern="[0-9]{13}" maxlength="13" "minlength="13" placeholder="Enter 13 digit" required><br><br>
+
+<label> Branch </label>
+<select name="branch" required>
+<option value="">select branch </option>
+<option value="cse">cse</option>
+<option value="ce">ce</option>
+<option value="it">it</option>
+</select> <br><br>
+
+<lable> Division </lable>
+<input type="text" name="Division" pattern="[A-Z]{1}
+	"maxlength="1" 
+	"minlength="1" 
+	placeholder="Enter 1 uppercase alphabet" required><br><br>
+<lable> Gender </lable>
+<input type="radio"name="gender"value="Male">Male
+
+<input type="radio" name="gender" value="Female"> Female
+        <br><br>
+<label>Mobile No :</label>
+        <input type="tel" name="mobile" pattern="[0-9]{10}" maxlength="10" "minlength="10" placeholder="Enter 10 digit" required><br><br>
+<label>Email ID :</label>
+        <input type="email" name="email">
+        <br><br>
+
+<label>Password :</label>
+        <input type="password" name="password">
+        <br><br>
+ <label>Photo :</label>
+        <input type="file" name="photo">
+        <br><br>
+ <label>Remarks :</label><br>
+        <textarea rows="5" cols="30"></textarea>
+        <br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</form>
+</html>
+
