@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+ <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Courses</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Student Registration Portal</h1>
+    </header>
+
+        <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Courses</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <br>
+
+    <!-- Article -->
+    <article>
+
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <!-- Name -->
+            <label>Name :</label>
+            <input type="text" name="name">
+            <br><br>
+
+            <!-- Enrollment -->
+            <label>Enrollment No :</label>
+            <input type="text" name="enrollment"
+                   pattern="[0-9]{12}"
+                   maxlength="12"
+                   required>
+            <br><br>
+
+            <!-- Branch -->
+            <label>Branch :</label>
+            <select name="branch">
+                <option>Select Branch</option>
+                <option>Computer</option>
+                <option>IT</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+                <option>Electrical</option>
+            </select>
+            <br><br>
+
+            <!-- Division -->
+            <label>Division :</label>
+            <input type="text" name="division"
+                   pattern="[A-Za-z]{1}"
+                   maxlength="1"
+                   required>
+            <br><br>
+
+            <!-- Gender -->
+            <label>Gender :</label>
+
+            <input type="radio" name="gender" value="Male"> Male
+
+            <input type="radio" name="gender" value="Female"> Female
+            <br><br>
+
+            <!-- Mobile Number -->
+            <label>Mobile No :</label>
+            <input type="tel" name="mobile"
+                   pattern="[0-9]{10}"
+                   maxlength="10"
+                   required>
+            <br><br>
+
+            <!-- Email -->
+            <label>Email ID :</label>
+            <input type="email" name="email"
+                   pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                   required>
+            <br><br>
+
+            <!-- Password -->
+            <label>Password :</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <!-- Photo Upload -->
+            <label>Photo :</label>
+            <input type="file" name="photo">
+            <br><br>
+
+            <!-- Remarks -->
+            <label>Remarks :</label><br>
+            <textarea rows="5" cols="30"></textarea>
+            <br><br>
+
+            <!-- Buttons -->
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Clear">
+
+        </form>
+
+    </article>
+
+    <br>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Student Registration System</p>
+    </footer>
+
+</body>
+</html>
